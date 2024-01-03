@@ -6,6 +6,7 @@ import social from '../../assests/4.png';
 import portfolio from '../../assests/8.png';
 import keep from '../../assests/7.png'
 import nasa from '../../assests/3.png'
+import mirror from '../../assests/10.png'
 import { FaGithub } from 'react-icons/fa';
 import { CgWebsite } from "react-icons/cg";
 
@@ -20,8 +21,19 @@ const projects = [
 Implemented user-friendly sign-up and login using Firebase for authentication.
 Built a responsive and interactive front-end with React and efficient state management using Redux Toolkit. Integrated Firebase for data storage and retrieval.`
 },
+
 { 
     id: 2,
+    image: mirror,
+        title: 'CodeMirrorHub',
+    githubLink: 'https://github.com/Darshna76/codeMirrorHub',
+    DeployedLink: 'https://code-mirror-hub.netlify.app/',
+    description: 'CodeMirrorHub is a user-friendly integrated development platform crafted with Rect.js. This innovative tool seamlessly merges web development and code compilation, allowing designers to effortlessly create web applications. Developers benefit from a streamlined workflow, writing and testing code in multiple languages, all enhanced by features like live preview.'
+
+},
+
+{ 
+    id: 3,
     image: shop,
         title: 'E-Commerce Website',
     githubLink: 'https://github.com/Darshna76/ShoppingCartApp',
@@ -30,20 +42,12 @@ Built a responsive and interactive front-end with React and efficient state mana
 },
 
 { 
-    id: 3,
+    id: 4,
     image: portfolio,
     title: 'Social media app',
     githubLink: 'https://github.com/Darshna76/SocialMediaApp',
     DeployedLink: 'module-test-f4-kappa.vercel.app',
     description: 'Discover my world through my React.js portfolio—a creative showcase of skills, projects, and my web development journey. Explore seamlessly and witness the passion and commitment behind each project. Welcome to my virtual space where innovation meets code.'
-},
-{ 
-    id: 4,
-    image: keep,
-        title: 'Keepify',
-    githubLink: 'https://github.com/Darshna76/GoogleKeepClone',
-    DeployedLink: 'https://google-keep-clone-weld.vercel.app/',
-    description: 'React.js and Material-UI-based Keepify lets users create, edit, and delete notes. Customize each note with a title, content, and color, and easily organize thoughts with a range of color options. Simplify note management with a sleek and intuitive interface.'
 },
 { 
     id: 5,
