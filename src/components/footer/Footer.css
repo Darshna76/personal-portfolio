@@ -1,6 +1,5 @@
 footer {
-    background: var(--color-primary);
-    padding: 0.5rem;
+   
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
@@ -8,14 +7,13 @@ footer {
 
 
 .footer__copyright {
-    margin-left: 50rem;
+    width: 100%;
     color: var(--color-bg);
+    background: var(--color-primary);
+    padding: 0.5rem;
+    position: fixed;
+    top: 95%;
+
 }
 
 /* mobile devices */
-@media screen and (max-width: 600px){
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-}
