@@ -2,8 +2,13 @@ import React from 'react';
 import './About.css';
 import ME from '../../assests/me.jpg';
 import {BiMedal, BiUser, BiFolder} from 'react-icons/bi';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+const navigate = useNavigate();
+    const letsTalk = () => {
+     navigate("/contact");
+    }
   return (
     <section id='about'>
         <h5>Get to know</h5>
@@ -41,7 +46,7 @@ const About = () => {
                 to build innovative and user-centric digital experiences!💻✨
                 </p>
 
-                <a  href="/contact" className='btn btn-primary' style={{marginLeft:'13rem'}}>Let's Talk</a>
+                <button className='btn btn-primary' style={{marginLeft:'13rem'}} onClick={letsTalk}>Let's Talk</button>
             </div>
         </div>
     </section>
